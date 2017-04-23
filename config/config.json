@@ -1,0 +1,44 @@
+{
+  "development": {
+    "apiServer":{
+      "url":"http://localhost:3000"
+    },
+    "jwt":{
+      "jwtSecret": "MyS3cr3tK3Y",
+      "jwtSession": {
+        "session": false
+      }
+    },
+    "facebook":{
+      "clientID":"1",
+      "clientSecret":"2",
+      "callbackURL":""
+    }
+  },
+  "test": {
+    "jwt":{
+      "jwtSecret": "MyS3cr3tK3Y",
+      "jwtSession": {
+        "session": false
+      }
+    },
+    "facebook":{
+      "clientID":"1",
+      "clientSecret":"2",
+      "callbackURL":""
+    }
+  },
+  "production": {
+    "jwt":{
+      "jwtSecret": "MyS3cr3tK3Y",
+      "jwtSession": {
+        "session": false
+      }
+    },
+    "facebook":{
+      "clientID":"1",
+      "clientSecret":"2",
+      "callbackURL":""
+    }
+  }
+}
